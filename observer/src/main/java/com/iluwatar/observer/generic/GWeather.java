@@ -41,6 +41,14 @@ public class GWeather extends Observable<GWeather, Race, WeatherType> {
     currentWeather = WeatherType.SUNNY;
   }
 
+  public WeatherType getCurrentWeather() {
+    return currentWeather;
+  }
+
+  public void setCurrentWeather(WeatherType currentWeather) {
+    this.currentWeather = currentWeather;
+  }
+
   /**
    * Makes time pass for weather
    */
