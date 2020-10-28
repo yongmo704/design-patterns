@@ -39,4 +39,5 @@
         <module>aggregator-service</module>
         <module>inventory-microservice</module>
     </modules>
+
 </project>
